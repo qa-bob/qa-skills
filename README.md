@@ -12,8 +12,9 @@ Each skill lives in its own directory with a `SKILL.md` entry point and, where t
 | [`llm-evaluation/`](./llm-evaluation/) | Behavioral & consistency testing, adversarial/prompt-injection & safety testing, RAG retrieval & generation metrics, LLM-as-judge & benchmark design |
 | [`test-data-management/`](./test-data-management/) | Synthetic data generation, PII anonymization/masking of production-derived data, referential integrity across fixtures, test data lifecycle & environment management |
 | [`contract-testing/`](./contract-testing/) | Consumer-driven contract testing with Pact — consumer-side test authoring, provider verification, Pact Broker & can-i-deploy CI workflow, message/async contracts |
+| [`multi-cloud-testing/`](./multi-cloud-testing/) | CSP-aware managed service testing (AWS/GCP/Azure), cloud security posture testing, IaC & policy-as-code testing, local emulation & cost control |
 
-That closes out the four highest-priority gaps identified from the SkillHub marketplace analysis. Remaining backlog: multi-cloud-aware testing, test pipeline observability, and test documentation/closure reporting.
+Remaining backlog: test pipeline observability and test documentation/closure reporting.
 
 ## Using a skill
 
