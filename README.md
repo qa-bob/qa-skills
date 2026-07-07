@@ -14,8 +14,9 @@ Each skill lives in its own directory with a `SKILL.md` entry point and, where t
 | [`contract-testing/`](./contract-testing/) | Consumer-driven contract testing with Pact — consumer-side test authoring, provider verification, Pact Broker & can-i-deploy CI workflow, message/async contracts |
 | [`multi-cloud-testing/`](./multi-cloud-testing/) | CSP-aware managed service testing (AWS/GCP/Azure), cloud security posture testing, IaC & policy-as-code testing, local emulation & cost control |
 | [`test-pipeline-observability/`](./test-pipeline-observability/) | OTel instrumentation of the test pipeline itself, flaky-test tracking & metrics dashboards, pipeline health alerting & cost tracking |
+| [`test-documentation/`](./test-documentation/) | Test plan authoring, test case documentation & traceability, closure reports & audience-aware writing |
 
-Remaining backlog: test documentation/closure reporting.
+That's the full set from the original SkillHub gap analysis — 7 skills covering security testing, LLM/agent/RAG evaluation, test data management, contract testing, multi-cloud testing, test pipeline observability, and test documentation.
 
 ## Using a skill
 
