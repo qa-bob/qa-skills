@@ -10,8 +10,9 @@ Each skill lives in its own directory with a `SKILL.md` entry point and, where t
 |---|---|
 | [`security-testing/`](./security-testing/) | OWASP Top 10 test case design, SAST/DAST CI integration, secrets & container scanning, penetration-test planning |
 | [`llm-evaluation/`](./llm-evaluation/) | Behavioral & consistency testing, adversarial/prompt-injection & safety testing, RAG retrieval & generation metrics, LLM-as-judge & benchmark design |
+| [`test-data-management/`](./test-data-management/) | Synthetic data generation, PII anonymization/masking of production-derived data, referential integrity across fixtures, test data lifecycle & environment management |
 
-More to follow — enterprise test data management and consumer-driven contract testing are next.
+More to follow — consumer-driven contract testing is next.
 
 ## Using a skill
 
